@@ -1,8 +1,8 @@
 ;(function ($, window, document, undefined) {
-	var pluginName = "phono",
+	var pluginName = "mobilise",
 		defaults = {};
 	
-	function Phono(element, options) {
+	function Mobilise(element, options) {
 		this.element = element;
 		this.options = $.extend({}, defaults, options);
 		this._name = pluginName;
@@ -10,7 +10,7 @@
 		this.init();
 	}
 	
-	Phono.prototype = {
+	Mobilise.prototype = {
 		init: function() {
 			// will insert stuff here
 		}
@@ -19,7 +19,7 @@
 	$.fn[pluginName] = function(options) {
 		return this.each(function() {
 			if (!$.data(this, "plugin_" + pluginName))
-				$.data(this, "plugin_" + pluginName, new Phono(this, options));
+				$.data(this, "plugin_" + pluginName, new Mobilise(this, options));
 			}
 		});
 	};
