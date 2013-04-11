@@ -1,7 +1,7 @@
 phono
 =====
 
-A jQuery extension for phone numbers...watch this space.
+A jQuery extension for phone numbers...watch this space. I'm still making it... =)
 
 What is it?
 -
