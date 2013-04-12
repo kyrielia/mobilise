@@ -5,6 +5,7 @@
 	function Mobilise(element, options) {
 		this.element = element;
 		this.options = $.extend({}, defaults, options);
+		
 		this._name = pluginName;
 		this._defaults = defaults;
 		this.init();
