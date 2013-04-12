@@ -22,5 +22,9 @@ $('#yourElement').mobilise();
 ```
 Boom. Done.
 
+When will it be ready?
+-
+
+Woah patience! It'll drop sooner than you know it. (Next couple of weeks)
 
 
