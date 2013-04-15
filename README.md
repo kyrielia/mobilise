@@ -19,6 +19,7 @@ How do I use it?
 -
 ```javascript
 $('#yourElement').mobilise();
+$('.yourClass').mobilise();
 ```
 Boom. Done.
 
