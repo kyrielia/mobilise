@@ -1,7 +1,7 @@
 Mobilise
 =====
 
-A jQuery extension for phone numbers...watch this space. I'm still making it... =)
+A jQuery extension for phone numbers.
 
 What is it?
 -
@@ -22,10 +22,5 @@ $('#yourElement').mobilise();
 $('.yourClass').mobilise();
 ```
 Boom. Done.
-
-When will it be ready?
--
-
-Woah patience! It'll drop sooner than you know it. (Next couple of weeks)
 
 
